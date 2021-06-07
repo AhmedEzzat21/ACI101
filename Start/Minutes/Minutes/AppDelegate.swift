@@ -14,6 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
       
+        
+        
 
         AppCenter.start(withAppSecret: "be17a075-6ad8-44af-9bab-58037e555397", services: [Analytics.self, Crashes.self , Distribute.self])
 
